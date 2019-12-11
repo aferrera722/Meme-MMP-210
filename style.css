@@ -1,0 +1,36 @@
+body {
+  font-family: Helvetica;
+  margin: 10;
+  padding: 0;
+  background-color: plum;
+  color: papayawhip;
+}
+    
+}
+
+#container {
+  padding: 50px 0;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.link {
+  list-style: none;
+  color: palegreen;
+  font-size: 2em;
+    display: inline-block;
+}
+
+.link a {
+  color: palegreen;
+    margin-right: 20px;
+}
+
+a {
+  color: palegreen;
+  transition: color 500ms
+}
+
+a:hover {
+  color: skyblue;
+}
